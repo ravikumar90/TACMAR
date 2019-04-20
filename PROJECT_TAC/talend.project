@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendProperties="http://www.talend.org/properties">
-  <TalendProperties:Project xmi:id="_W_9isU5OEem6k6hHdpcekA" label="project_tac" description="project_tac" language="java" technicalLabel="PROJECT_TAC" creationDate="2019-03-23T21:17:58.599+0530" author="_W_9isk5OEem6k6hHdpcekA" productVersion="Talend Data Integration-6.5.1.20180116_1512" url="{&quot;commitLogPattern&quot;:&quot;{0}&quot;,&quot;location&quot;:&quot;https://github.com/ravikumar90/TACMAR.git&quot;,&quot;login&quot;:&quot;ravikumar90&quot;,&quot;passwd&quot;:&quot;EDdCMlID7mBWGgfTIiHP5g==&quot;,&quot;settings&quot;:&quot;000&quot;,&quot;storage&quot;:&quot;git&quot;}" reference="true" type="DI" itemsRelationVersion="1.3" bigData="false">
+  <TalendProperties:Project xmi:id="_W_9isU5OEem6k6hHdpcekA" label="project_tac" description="project_tac" language="java" technicalLabel="PROJECT_TAC" creationDate="2019-03-23T21:17:58.599+0530" author="_W_9isk5OEem6k6hHdpcekA" referencedProjects="_NUO3wmOYEem3Pei9G3yBew" productVersion="Talend Data Integration-6.5.1.20180116_1512" url="{&quot;commitLogPattern&quot;:&quot;{0}&quot;,&quot;location&quot;:&quot;https://github.com/ravikumar90/TACMAR.git&quot;,&quot;login&quot;:&quot;ravikumar90&quot;,&quot;passwd&quot;:&quot;EDdCMlID7mBWGgfTIiHP5g==&quot;,&quot;settings&quot;:&quot;000&quot;,&quot;storage&quot;:&quot;git&quot;}" reference="true" type="DI" itemsRelationVersion="1.3" bigData="false">
     <technicalStatus xmi:id="_ZZ844E5OEem6k6hHdpcekA" label="development" code="DEV"/>
     <technicalStatus xmi:id="_ZZ844U5OEem6k6hHdpcekA" label="testing" code="TEST"/>
     <technicalStatus xmi:id="_ZZ844k5OEem6k6hHdpcekA" label="production" code="PROD"/>
@@ -359,4 +359,8 @@
   </TalendProperties:Project>
   <TalendProperties:User xmi:id="_W_9isk5OEem6k6hHdpcekA" login="security@company.com" firstName="security" lastName="security" type="DI" additionnalData="{}"/>
   <TalendProperties:User xmi:id="_ZaIfEE5OEem6k6hHdpcekA" login="dev1@gmail.com" firstName="dev1" lastName="dev1" type="DI" additionnalData="{}"/>
+  <TalendProperties:User xmi:id="_NUO3wWOYEem3Pei9G3yBew" login="dev2@gmail.com" firstName="dev2" lastName="dev2" type="DI" additionnalData="{}"/>
+  <TalendProperties:ProjectReference xmi:id="_NUO3wmOYEem3Pei9G3yBew" project="_W_9isU5OEem6k6hHdpcekA" branch="master" referencedBranch="master">
+    <referencedProject href="../PROJECT_TAC1/talend.project#projectReference"/>
+  </TalendProperties:ProjectReference>
 </xmi:XMI>
